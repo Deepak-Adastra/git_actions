@@ -15,7 +15,7 @@ jobs:
             - name: Python install
               uses: actions/setup-python@v2
               with:
-                  python-version: 3.10
+                  python-version: 3.10.20
             - name: Install dependencies
               run: pip install flake8
             - name: lint with flake8
